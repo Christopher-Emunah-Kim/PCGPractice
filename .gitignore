@@ -1,0 +1,56 @@
+# Unreal Engine 빌드 산출물
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# 컴파일된 플러그인 (직접 추가한 플러그인 소스는 제외)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# JetBrains Rider
+.idea/
+*.DotSettings.user
+
+# Xcode (Mac 협업 시)
+*.xcworkspace
+*.xcodeproj
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# UE 자동 생성 프로젝트 파일 (uproject로 재생성 가능)
+*.sln
+*.xcworkspace
+
+# 패키징 결과물
+*.pak
+*.sig
+*.ucas
+*.utoc
+
+# 크래시 덤프
+*.dmp
+*.crash
+
+# 로그
+*.log
+
+# 추가 빌드/IDE 임시파일
+*.aps
+*.db-shm
+*.db-wal
+FileOpenOrder/
+Saved/Cooked/
+Saved/StagedBuilds/

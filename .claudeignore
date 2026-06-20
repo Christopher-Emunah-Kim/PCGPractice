@@ -1,0 +1,36 @@
+# ── UE5 빌드 산출물 ──────────────────────────────────────
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# ── 에셋 바이너리 (텍스트 없음, Read 불가) ───────────────
+Content/
+*.uasset
+*.umap
+*.uexp
+*.ubulk
+*.upk
+
+# ── IDE / 빌드 캐시 ──────────────────────────────────────
+.vs/
+*.sdf
+*.suo
+*.user
+*.opensdf
+*.VC.db
+
+# ── 컴파일 산출물 ────────────────────────────────────────
+*.pdb
+*.lib
+*.dll
+*.exp
+*.obj
+*.ilk
+
+# ── 로그 ─────────────────────────────────────────────────
+*.log
+Saved/Logs/
+
+# ── 엔진 자동생성 Config (프로젝트 Config/는 유지) ────────
+Saved/Config/
